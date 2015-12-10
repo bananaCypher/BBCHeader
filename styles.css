@@ -1,0 +1,41 @@
+html, body {
+  font-family: Helvetica;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 0;
+}
+
+nav {
+  border-bottom: 1px solid lightgrey;
+  line-height: 40px;
+}
+
+nav ul {
+  padding-left: 0px;
+  display: block;
+  max-width: 976px;
+  margin: 0 auto;
+}
+
+nav li {
+  height: 100%;
+  display: inline-block;
+  border-right: 1px solid lightgrey;
+  padding: 4px 12px;
+}
+
+nav li:last-of-type {
+  border-right: 0;
+}
+
+nav li img {
+  vertical-align: middle;
+}
+
+nav li input {
+  background-color: rgb(228, 228, 228);
+  border: 0;
+  padding: 4px 8px;
+  vertical-align: middle;
+  height: 24px;
+}
